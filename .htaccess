@@ -1,0 +1,9 @@
+#Disable index view
+options -Indexes
+
+#Esconder archivos delicados
+
+<Files .env>
+order allow,deny
+Deny from all
+</Files>
